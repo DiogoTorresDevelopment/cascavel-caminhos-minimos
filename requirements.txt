@@ -1,0 +1,7 @@
+numpy>=1.24          # ajuda no Floyd-Warshall e em benchmarks
+matplotlib>=3.8      # gera gráficos de tempo (opcional)
+pytest>=8.0          # testes
+pytest-cov>=4.1      # cobertura
+black>=24.0          # formatação
+isort>=5.13          # organização de imports
+mypy>=1.8            # checagem de tipos opcional

@@ -1,0 +1,44 @@
+2025-06-15 15:26:10,727 [INFO] __main__: 🚩  Grafo Pequeno (10 v)
+2025-06-15 15:26:10,729 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:26:10,729 [INFO] __main__:   • Bellman-Ford       0.01 ms
+2025-06-15 15:26:10,730 [INFO] __main__:   • Floyd-Warshall     0.07 ms
+2025-06-15 15:26:10,730 [INFO] __main__: 🚩  Grafo Médio (12 v)
+2025-06-15 15:26:10,730 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:26:10,730 [INFO] __main__:   • Bellman-Ford       0.01 ms
+2025-06-15 15:26:10,731 [INFO] __main__:   • Floyd-Warshall     0.10 ms
+2025-06-15 15:26:11,559 [INFO] __main__: 📊  Gráfico salvo em docs/timing.png
+2025-06-15 15:26:11,559 [INFO] __main__: ⚙️  Rodando pytest…
+2025-06-15 15:26:11,961 [ERROR] __main__: ❌  Falhas nos testes.
+2025-06-15 15:27:30,285 [INFO] __main__: 🚩  Grafo Pequeno (10 v)
+2025-06-15 15:27:30,286 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:27:30,286 [INFO] __main__:   • Bellman-Ford       0.02 ms
+2025-06-15 15:27:30,287 [INFO] __main__:   • Floyd-Warshall     0.07 ms
+2025-06-15 15:27:30,287 [INFO] __main__: 🚩  Grafo Médio (12 v)
+2025-06-15 15:27:30,287 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:27:30,287 [INFO] __main__:   • Bellman-Ford       0.01 ms
+2025-06-15 15:27:30,288 [INFO] __main__:   • Floyd-Warshall     0.10 ms
+2025-06-15 15:27:30,515 [INFO] __main__: 📊  Gráfico salvo em docs/timing.png
+2025-06-15 15:27:30,516 [INFO] __main__: ⚙️  Rodando pytest…
+2025-06-15 15:27:30,761 [INFO] __main__: ✅  Todos os testes passaram.
+2025-06-15 15:28:47,214 [INFO] __main__: 🚩  Grafo Pequeno (10 v)
+2025-06-15 15:28:47,215 [INFO] __main__:   • Dijkstra           0.03 ms
+2025-06-15 15:28:47,215 [INFO] __main__:   • Bellman-Ford       0.02 ms
+2025-06-15 15:28:47,215 [INFO] __main__:   • Floyd-Warshall     0.09 ms
+2025-06-15 15:28:47,216 [INFO] __main__: 🚩  Grafo Médio (12 v)
+2025-06-15 15:28:47,216 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:28:47,216 [INFO] __main__:   • Bellman-Ford       0.02 ms
+2025-06-15 15:28:47,217 [INFO] __main__:   • Floyd-Warshall     0.11 ms
+2025-06-15 15:28:47,469 [INFO] __main__: 📊  Gráfico salvo em docs/timing.png
+2025-06-15 15:28:47,469 [INFO] __main__: ⚙️  Rodando pytest…
+2025-06-15 15:28:47,727 [INFO] __main__: ✅  Todos os testes passaram.
+2025-06-15 15:33:43,939 [INFO] __main__: 🚩  Grafo pequeno
+2025-06-15 15:33:43,940 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:33:43,941 [INFO] __main__:   • Bellman-ford       0.02 ms
+2025-06-15 15:33:43,942 [INFO] __main__:   • Floyd-warshall     0.07 ms
+2025-06-15 15:33:43,943 [INFO] __main__: 🚩  Grafo medio
+2025-06-15 15:33:43,943 [INFO] __main__:   • Dijkstra           0.01 ms
+2025-06-15 15:33:43,944 [INFO] __main__:   • Bellman-ford       0.02 ms
+2025-06-15 15:33:43,945 [INFO] __main__:   • Floyd-warshall     0.11 ms
+2025-06-15 15:33:44,178 [INFO] __main__: 📊  Gráfico salvo em C:\fontes\proc_images_2025_1\cascavel-caminhos-minimos\docs\timing.png
+2025-06-15 15:33:44,178 [INFO] __main__: ⚙️  Rodando pytest…
+2025-06-15 15:33:44,405 [INFO] __main__: ✅  Todos os testes passaram.
