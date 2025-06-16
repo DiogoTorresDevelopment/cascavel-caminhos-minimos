@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 import pytest
+from tabulate import tabulate  # <-- adicionado
 
 from .application.algorithms import BellmanFord, Dijkstra, FloydWarshall
 from .domain.builders import cascavel_graph, regional_graph
@@ -56,12 +57,16 @@ def smoke_test() -> None:
             times_ms.append(ms)
             logger.info("  • %-14s  %7.2f ms", a_name.capitalize(), ms)
 
+            # -------- impressão formatada no console ----------------------------------------------
+            rows = [(v, "∞" if dist[v] == float("inf") else int(dist[v])) for v in sorted(dist)]
+            print("\n" + tabulate(rows, headers=[f"{a_name.title()} – {g_name}", "Distância"]))
+
             # -------- exportação CSV + JSON ------------------------------------------------------
             base = res_dir / f"{a_name}_{g_name}"
-            export_distances_csv(dist, base)   # → .csv
-            export_distances_json(dist, base)  # → .json
-            logger.debug("    dist(CA→MR) = %s  (arquivos em %s)",
-                         dist.get("MR"), res_dir)
+            export_distances_csv(dist, base)
+            export_distances_json(dist, base)
+            logger.debug("    dist(CA→MR) = %s  (arquivos em %s)", dist.get("MR"), res_dir)
+
     # -------- gráfico de barras ------------------------------------------------------------------
     plot_timing_bar(labels, times_ms, docs_dir / "timing.png")
     logger.info("📊  Gráfico salvo em %s", docs_dir / "timing.png")
@@ -80,7 +85,6 @@ def run_pytest() -> int:
 
 def main() -> None:
     smoke_test()
-    # comente a linha abaixo se não quiser rodar a suíte sempre
     run_pytest()
 
 
